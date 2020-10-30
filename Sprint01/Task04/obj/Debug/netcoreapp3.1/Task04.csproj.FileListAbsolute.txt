@@ -1,0 +1,13 @@
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.exe
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.deps.json
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.json
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.dev.json
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.dll
+E:\Marathon\Sprint01\Task04\bin\Debug\netcoreapp3.1\Task04.pdb
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.csprojAssemblyReference.cache
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfoInputs.cache
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfo.cs
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.csproj.CoreCompileInputs.cache
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.dll
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.pdb
+E:\Marathon\Sprint01\Task04\obj\Debug\netcoreapp3.1\Task04.genruntimeconfig.cache
