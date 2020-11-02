@@ -33,6 +33,9 @@ namespace Task05
         }
 
         internal override string GetHealthStatus() { return name + ": " + yearOfBirth + ". " + healthInfo; }
+        /*
+         * Правильное решение, не переопределять метод
+         */
         public override string ToString()
         {
             return name + " " + childIDNumber;
@@ -47,7 +50,9 @@ namespace Task05
         {
             this.passportNumber = passportNumber;
         }
-
+        /*
+        * Правильное решение, не переопределять метод
+        */
         internal override string GetHealthStatus() { return name + ": " + yearOfBirth + ". " + healthInfo; }
         public override string ToString()
         {

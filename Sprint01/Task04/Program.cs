@@ -33,6 +33,10 @@ namespace Task04
                     Console.WriteLine("Disposing by GC");
                     Close();
                 }
+                /*
+                 * Правильное решение - ментор
+                 * Close();
+                 */
                 IsDisposed = true;
             }
         }
