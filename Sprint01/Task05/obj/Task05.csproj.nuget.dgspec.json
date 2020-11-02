@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Marathon\\Sprint01\\Task05\\Task05.csproj": {}
+    "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task05\\Task05.csproj": {}
   },
   "projects": {
-    "E:\\Marathon\\Sprint01\\Task05\\Task05.csproj": {
+    "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task05\\Task05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Marathon\\Sprint01\\Task05\\Task05.csproj",
+        "projectUniqueName": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task05\\Task05.csproj",
         "projectName": "Task05",
-        "projectPath": "E:\\Marathon\\Sprint01\\Task05\\Task05.csproj",
+        "projectPath": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task05\\Task05.csproj",
         "packagesPath": "C:\\Users\\wests\\.nuget\\packages\\",
-        "outputPath": "E:\\Marathon\\Sprint01\\Task05\\obj\\",
+        "outputPath": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

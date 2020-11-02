@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Marathon\\Sprint01\\Task03\\Task03.csproj",
+      "projectUniqueName": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task03\\Task03.csproj",
       "projectName": "Task03",
-      "projectPath": "E:\\Marathon\\Sprint01\\Task03\\Task03.csproj",
+      "projectPath": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task03\\Task03.csproj",
       "packagesPath": "C:\\Users\\wests\\.nuget\\packages\\",
-      "outputPath": "E:\\Marathon\\Sprint01\\Task03\\obj\\",
+      "outputPath": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task03\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

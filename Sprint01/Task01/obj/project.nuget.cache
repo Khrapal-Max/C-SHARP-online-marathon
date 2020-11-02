@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cQrbMYa2NTnFJ6dnTUnxVWToE+DSZBS82qVBAUQMJyuUQ/ZaUesNFYSsnYA+/janBW7Rzep/RY1PGmqdre6Eg==",
+  "dgSpecHash": "eM/CFcMWFFPcVMd9pJKuKMFL9OllQkYCgZ81l7iUOcb9Yk/UQMfEpEsdPiHguOdSf105nfIqia3yGS1Cgi/DPw==",
   "success": true,
-  "projectFilePath": "E:\\Marathon\\Sprint01\\Task01\\Task01.csproj",
+  "projectFilePath": "E:\\Marathon\\C-SHARP-online-marathon\\Sprint01\\Task01\\Task01.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
