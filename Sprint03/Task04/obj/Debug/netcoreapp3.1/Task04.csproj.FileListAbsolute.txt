@@ -1,0 +1,13 @@
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.exe
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.deps.json
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.json
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.dev.json
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.dll
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\bin\Debug\netcoreapp3.1\Task04.pdb
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.csprojAssemblyReference.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfoInputs.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfo.cs
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.csproj.CoreCompileInputs.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.dll
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.pdb
+E:\Marathon\C-SHARP-online-marathon\Sprint03\Task04\obj\Debug\netcoreapp3.1\Task04.genruntimeconfig.cache

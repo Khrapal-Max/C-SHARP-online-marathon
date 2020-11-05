@@ -19,7 +19,7 @@ namespace Task03
         {
             Console.WriteLine("We don't need any awards, but we still can obtain The Abel Prize that nobody else can!");
         }
-    }
+    }   
     public class Physics : Science { }  
     class Program
     {
@@ -34,7 +34,6 @@ namespace Task03
             //We don't need any awards, but we still can obtain The Abel Prize that nobody else can!
             //We can obtain The Nobel Prize
             Console.ReadLine();
-
         }
     }
 }

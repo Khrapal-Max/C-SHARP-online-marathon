@@ -10,3 +10,4 @@ E:\Marathon\C-SHARP-online-marathon\Sprint02\Task04\obj\Debug\netcoreapp3.1\Task
 E:\Marathon\C-SHARP-online-marathon\Sprint02\Task04\obj\Debug\netcoreapp3.1\Task04.dll
 E:\Marathon\C-SHARP-online-marathon\Sprint02\Task04\obj\Debug\netcoreapp3.1\Task04.pdb
 E:\Marathon\C-SHARP-online-marathon\Sprint02\Task04\obj\Debug\netcoreapp3.1\Task04.genruntimeconfig.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint02\Task04\obj\Debug\netcoreapp3.1\Task04.csprojAssemblyReference.cache
