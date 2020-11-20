@@ -28,17 +28,18 @@ namespace Task03
             }
             else
             {
+                int count = degree > 0 ? degree : degree * -1;
                 float result = number;
                 if (degree > 0)
                 {
-                    for (int i = 0; i < degree; i++)
+                    for (int i = 0; i < count; i++)
                     {
                         yield return i < 1 ? result : result *= number;
                     }
                 }
                 else
                 {
-                    for (int i = 0; i < degree * -1; i++)
+                    for (int i = 0; i < count; i++)
                     {
                         yield return i < 1 ? result = 1 / (float)number : result /= number;
                     }
@@ -53,7 +54,7 @@ namespace Task03
             Console.WriteLine("Iterator");
             foreach (float item in ShowPower.SuperPower(3, 4))
             {
-                Console.WriteLine(item);                
+                Console.WriteLine(item);
             }
             Console.WriteLine("Mat");
             Console.WriteLine(Math.Pow(3, 1));
@@ -71,7 +72,7 @@ namespace Task03
             Console.WriteLine(Math.Pow(-3, 3));
             Console.WriteLine(Math.Pow(-3, 4));
             Console.WriteLine("Iterator");
-            foreach (float item in ShowPower.SuperPower(0, -4))
+            foreach (float item in ShowPower.SuperPower(2, -4))
             {
                 Console.WriteLine(item);
             }
