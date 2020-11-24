@@ -1,0 +1,12 @@
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.exe
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.deps.json
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.runtimeconfig.json
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.runtimeconfig.dev.json
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.dll
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\bin\Debug\netcoreapp3.1\Test02.pdb
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.AssemblyInfoInputs.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.AssemblyInfo.cs
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.csproj.CoreCompileInputs.cache
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.dll
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.pdb
+E:\Marathon\C-SHARP-online-marathon\Sprint08\Test02\obj\Debug\netcoreapp3.1\Test02.genruntimeconfig.cache
