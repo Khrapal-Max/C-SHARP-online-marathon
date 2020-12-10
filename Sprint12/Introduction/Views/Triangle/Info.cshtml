@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Introduction.Models.Triangle
+
+<style>
+    body {
+        background: #333; /* Цвет фона */
+        color: #fc0; /* Цвет текста */
+    }
+</style>
+<div>
+    <br>------------------------------------------------------------
+    <br> Triangle:
+    <br>(@Model.Side1, @Model.Side2, @Model.Side3)
+    <br>Reduced:
+    <br>(@foreach (var item in String.Join(", ", ViewBag.Reduced))
+    {
+        @item
+    })
+    <p>
+        <br>Area = @ViewData["Area"]
+        <br>Perimeter = @ViewData["Perimeter"]
+        <br>------------------------------------------------------------
+</div>

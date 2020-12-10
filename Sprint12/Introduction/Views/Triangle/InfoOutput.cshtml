@@ -1,0 +1,22 @@
+﻿@model List<Triangle>
+
+<style>
+    body {
+        background: #333; /* Цвет фона */
+        color: #fc0; /* Цвет текста */
+    }
+</style>
+<div>
+    <br>@foreach (var item in Model)
+    {
+        <h7><br>------------------------------------------------------------</h7>
+        <h6>Triangle:</h6>
+        <h7><br>(@item.Side1, @item.Side2, @item.Side3)</h7>
+        <h7><br>Reduced:</h7>
+        <h7><br>(@Math.Round(item.Side1 / item.Perimeter, 3), @Math.Round(item.Side2 / item.Perimeter, 3), @Math.Round(item.Side3 / item.Perimeter, 3))</h7>
+        <br>
+        <h7><br>Area = @item.Area;</h7>
+        <h7><br>Perimeter = @item.Perimeter</h7>
+        <h7><br>------------------------------------------------------------</h7>
+    }
+</div>

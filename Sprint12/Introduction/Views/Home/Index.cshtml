@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <ul>
+        <li><a href="/triangle/Info?side1=10&side2=20&side3=25">Info</a></li>
+        <li><a href="/triangle/Area?side1=10&side2=20&side3=25">Area</a></li>
+        <li><a href="/triangle/Perimeter?side1=10&side2=20&side3=25">Perimetr</a></li>
+        <li><a href="/triangle/IsRightAngled?side1=3&side2=5&side3=4">Is Right-Angled True</a></li>
+        <li><a href="/triangle/IsRightAngled?side1=3&side2=5&side3=6">Is Right-Angled False</a></li>
+        <li><a href="/triangle/IsEquilateral?side1=10&side2=10&side3=10">Is Equilateral True</a></li>
+        <li><a href="/triangle/IsEquilateral?side1=10&side2=12&side3=10">Is Equilateral False</a></li>
+        <li><a href="/triangle/IsIsosceles?side1=15&side2=20&side3=15">Is Isosceles True</a></li>
+        <li><a href="/triangle/IsIsosceles?side1=16&side2=20&side3=15">Is Isosceles False</a></li>
+        <li><a href="/triangle/arecongruent?tr1.side1=10&tr1.side2=20&tr1.side3=15&tr2.side1=15&tr2.side2=10&tr2.side3=20">Are congruent True</a></li>
+        <li><a href="/triangle/arecongruent?tr1.side1=10&tr1.side2=20&tr1.side3=15&tr2.side1=15&tr2.side2=12&tr2.side3=20">Are congruent False</a></li>
+        <li><a href="/triangle/aresimilar?tr1.side1=10&tr1.side2=20&tr1.side3=150&tr2.side1=30&tr2.side2=20&tr2.side3=40">Are similar False</a></li>
+        <li><a href="/triangle/aresimilar?tr1.side1=10&tr1.side2=20&tr1.side3=150&tr2.side1=15&tr2.side2=12&tr2.side3=20">Are similar False</a></li>
+        <li><a href="/triangle/GreatesByPerimeter?tr[0].side1=10&tr[0].side2=20&tr[0].side3=12&tr[1].side1=10&tr[1].side2=20&tr[1].side3=25&tr[2].side1=10&tr[2].side2=18&tr[2].side3=22">Greatest perimeter </a></li>
+        <li><a href="/triangle/GreatestByArea?tr[0].side1=10&tr[0].side2=20&tr[0].side3=12&tr[1].side1=10&tr[1].side2=20&tr[1].side3=25&tr[2].side1=10&tr[2].side2=18&tr[2].side3=22">Greatest area</a></li>
+        <li><a href="/triangle/PairwiseNonSimilar?tr[0].side1=10&tr[0].side2=20&tr[0].side3=12&tr[1].side1=10&tr[1].side2=20&tr[1].side3=25&tr[2].side1=10&tr[2].side2=18&tr[2].side3=22">Pairwise non-similar</a></li>
+
+    </ul>
+</div>

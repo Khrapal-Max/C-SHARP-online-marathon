@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Introduction.Models.Triangle
+<style>
+    body {
+        background: #333; /* Цвет фона */
+        color: #fc0; /* Цвет текста */
+    }
+</style>
+<div>
+    <br> @ViewData["error"]
+    <br>------------------------------------------------------------
+    <br> Triangle:
+    <br>(@Model.Side1, @Model.Side2, @Model.Side3)
+</div>

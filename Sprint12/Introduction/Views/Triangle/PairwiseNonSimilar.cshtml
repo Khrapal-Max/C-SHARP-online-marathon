@@ -1,0 +1,24 @@
+﻿@model List<Couple>
+
+<style>
+    body {
+        background: #333; /* Цвет фона */
+        color: #fc0; /* Цвет текста */
+    }
+</style>
+<div>
+    <br>@foreach (var item in Model)
+    {
+        <h7><br>------------------------------------------------------------</h7><br>
+        <h7>Triangle 1:</h7>
+        <h7><br>(@item.tr1.Side1, @item.tr1.Side2, @item.tr1.Side3)</h7>
+        <h7><br>Area = @item.tr1.Area;</h7>
+        <h7><br>Perimeter = @item.tr1.Perimeter</h7><br>
+        <p></p>
+        <h7>Triangle 2:</h7>
+        <h7><br>(@item.tr2.Side1, @item.tr2.Side2, @item.tr2.Side3)</h7>
+        <h7><br>Area = @item.tr2.Area;</h7>
+        <h7><br>Perimeter = @item.tr2.Perimeter</h7>
+        <h7><br>------------------------------------------------------------</h7>
+    }
+</div>
