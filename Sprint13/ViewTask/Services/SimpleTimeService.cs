@@ -3,7 +3,7 @@
     public class SimpleTimeService : ITimeService
     {
         /// <summary>
-        /// Этот метод возвращает текущее время, в формате hh : mm : ss
+        /// Этот метод возвращает текущее время
         /// </summary>
         /// <returns></returns>
         public string GetTimeForTomorrow()

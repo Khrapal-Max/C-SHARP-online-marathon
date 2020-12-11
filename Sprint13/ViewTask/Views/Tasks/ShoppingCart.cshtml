@@ -21,7 +21,7 @@
         <td><input type="text" name="address" /> </td>
         <td><p></p></td>
     </tr>
-    @Html.DropDownList("markets", new SelectList(new string[] { "WellMart", "Silpo", "ATB", "Furshet", "Metro" }), "Selected markets");
+    @Html.DropDownList("markets", new SelectList(ViewBag.Markets), "Selected markets")
     <p></p>
     @Html.RadioButton("date", "today", true)
     <span>@DateTime.Today</span>

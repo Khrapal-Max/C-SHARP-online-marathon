@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using ViewTask.Models;
 
@@ -17,7 +17,7 @@ namespace ViewTask.Controllers
             new Product() { Name = "Tomato", Price = 25 },
             new Product() { Name = "Candy", Price = 75 }
         };
-        private List<string> markets => new List<string>
+        private List<string> Markets => new List<string>
         {
             "WellMart",
             "Silpo",
@@ -27,7 +27,7 @@ namespace ViewTask.Controllers
         };
         private Dictionary<string, int> ListProducts => new Dictionary<string, int>
         {
-            { "Milk", 2 },
+            {"Milk", 2 },
             {"Bread", 2 },
             {"Cake", 1 },
             {"Ice Cream", 5 },
@@ -70,8 +70,8 @@ namespace ViewTask.Controllers
         /// </summary>
         /// <returns></returns>
         public IActionResult SuperMarkets()
-        {          
-            ViewBag.Markets = markets;
+        {
+            ViewBag.Markets = Markets;
             return View();
         }
         /// <summary>
@@ -80,7 +80,7 @@ namespace ViewTask.Controllers
         /// <returns></returns>
         public IActionResult ShoppingList()
         {
-            return PartialView(ListProducts);
+            return View(ListProducts);
         }
         /// <summary>
         /// Этот метод работает с корзиной покупателя
@@ -89,6 +89,7 @@ namespace ViewTask.Controllers
         [HttpGet]
         public IActionResult ShoppingCart()
         {
+            ViewBag.Markets = Markets;
             return View(ListProducts);
         }
         [HttpPost]
