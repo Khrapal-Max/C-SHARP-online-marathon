@@ -17,7 +17,7 @@ namespace ViewTask.Controllers
             new Product() { Name = "Tomato", Price = 25 },
             new Product() { Name = "Candy", Price = 75 }
         };
-        List<string> markets => new List<string>
+        private List<string> markets => new List<string>
         {
             "WellMart",
             "Silpo",
@@ -94,8 +94,7 @@ namespace ViewTask.Controllers
         [HttpPost]
         public IActionResult ShoppingCart(string name, string address)
         {
-            string authData = $"You products will be shipped at: {address}. Bon appetite, {name}";
-            return Content(authData);
+            return Content($"You products will be shipped at: {address}. Bon appetite, {name}");
         }
     }
 }
