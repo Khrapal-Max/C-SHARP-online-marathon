@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "ShoppingCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Dictionary<string, int>
+<div class="text-left">
+    <h1>Your shopping cart</h1>
+    <p>
+</div>
+@using (Html.BeginForm())
+{
+    <tr>
+        <td><p>Input your fullname: </p></td>
+        <td><p></p></td>
+        <td><input type="text" name="name" /> </td>
+        <td><p></p></td>
+    </tr>
+    <tr>
+        <td><p>Input your address:</p></td>
+        <td><p></p></td>
+        <td><input type="text" name="address" /> </td>
+        <td><p></p></td>
+    </tr>
+    @Html.DropDownList("markets", new SelectList(new string[] { "WellMart", "Silpo", "ATB", "Furshet", "Metro" }), "Selected markets");
+    <p></p>
+    @Html.RadioButton("date", "today", true)
+    <span>@DateTime.Today</span>
+    <br />
+    @Html.RadioButton("date", "tomorrow")
+    <span>@DateTime.Today.AddDays(1)</span>
+    <br />
+    @Html.RadioButton("date", "after tomorrow")
+    <span>@DateTime.Today.AddDays(2)</span>
+    <p></p>
+    @Html.ListBox("products", new MultiSelectList(Model.Keys), "Products")
+    <p></p>
+    <tr>
+        <td><input type="submit" value="Send" /> </td>
+    </tr>
+}

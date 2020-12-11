@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "ShoppingList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Dictionary<string, int>
+<div class="text-left">
+    <h1>Our shopping list</h1>
+    <p>
+</div>
+<style type="text/css">
+    table {
+        width: 150px; /* Ширина таблицы */
+        border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    }
+
+    td, th {
+        padding-left: 5px; /* Поля вокруг содержимого таблицы */
+        border: 1px solid black; /* Параметры рамки */
+    }
+</style>
+<div>
+    <table>
+        @foreach (var item in Model)
+        {
+            <tr><td>@item.Key</td><td>@item.Value</td></tr>
+        }
+    </table>
+    <p></p> 
+    @Html.Partial("TimeToBuyView")
+</div>

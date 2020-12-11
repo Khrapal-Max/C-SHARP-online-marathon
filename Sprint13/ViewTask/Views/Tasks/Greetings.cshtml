@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Greetings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="text-left">
+    <h1><b>Greetings</b></h1>
+    <p>
+</div>
+@{ 
+    string message = "Hello C# Marathon!";
+    string greetings = "Welcom to our project!";
+}
+<div>
+    <p>The value of myMessage is: @message</p>
+    <p>The greetings is: @greetings</p>
+    <p>Here in Ukraine: @DateTime.Now.DayOfWeek</p>
+    <p>
+        We wish you:
+        @{
+            string evening = "Good Evening!";
+            string morning = "Good Morning!";
+        }
+        @if (DateTime.Now.Hour > 6 && DateTime.Now.Hour < 16)
+        {
+            @morning;
+        }
+        else
+        {
+            @evening;
+        }
+    </p>
+    <p>Today is: @DateTime.Now.DayOfWeek</p>
+    <style type="text/css">
+        table {
+            width: 200px; /* Ширина таблицы */
+            border-collapse: collapse; /* Убираем двойные линии между ячейками */
+        }
+
+        td, th {
+            padding-left: 5px; /* Поля вокруг содержимого таблицы */
+            border: 1px solid black; /* Параметры рамки */
+        }
+
+        th {
+            background: #b0e0e6; /* Цвет фона */
+        }
+    </style>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Value
+                </th>
+            </tr>
+            <tr><td>Day</td><td>@DateTime.Now.Day</td></tr>
+            <tr><td>Hour</td><td>@DateTime.Now.Hour</td></tr>
+            <tr><td>Minute</td><td>@DateTime.Now.Minute</td></tr>
+            <tr><td>Second</td><td>@DateTime.Now.Second</td></tr>
+        </tbody>
+    </table>
+</div>

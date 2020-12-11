@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Productinfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<Product>
+<div class="text-left">
+    <h1>Information about product</h1>
+    <p>
+</div>
+<style>
+    table {
+        width: 15%; /* Ширина таблицы */
+    }
+</style>
+<table>
+    <tr><th>Name</th><th>Price</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr><td>@item.Name</td><td>@item.Price</td></tr>
+    }
+</table>
+
+
