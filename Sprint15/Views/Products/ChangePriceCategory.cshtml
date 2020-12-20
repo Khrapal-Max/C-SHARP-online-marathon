@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProductsValidation.Models.Product>
+
+@{
+    ViewData["Title"] = "Report category products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>View category products</h1>
+<form asp-action="ChangePriceCategory">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{Product[] products = Model.ToArray();}
+            @for (int i = 0; i < products.Length; i++)
+            {
+                <tr>
+                    <td>
+                        <input asp-for="@products[i].Id" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="@products[i].Name" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input asp-for="@products[i].Price" class="form-control" />
+                        <span asp-validation-for="@products[i].Id" class="text-danger"></span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-group">
+        <input type="submit" value="Save changes" class="btn btn-primary" />
+    </div>
+</form>
+<div>
+    <a asp-action="EditPriceForAllCategory">Change price for category products</a>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
