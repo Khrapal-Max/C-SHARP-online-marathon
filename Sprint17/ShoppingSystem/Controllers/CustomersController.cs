@@ -26,7 +26,7 @@ namespace ShoppingSystem.Controllers
                 select c;
 
             ViewData["CurrentFilter"] = searchString;
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
                 customers = customers.Where(s => s.LastName.Contains(searchString)
                                                  || s.FirstName.Contains(searchString));

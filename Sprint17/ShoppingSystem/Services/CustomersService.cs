@@ -23,7 +23,7 @@ namespace ShoppingSystem.Services
             await _dbContext.Customers.AddAsync(customer);
 
             await _dbContext.SaveChangesAsync();
-        }      
+        }
 
         public async Task DeleteAsync(int id)
         {

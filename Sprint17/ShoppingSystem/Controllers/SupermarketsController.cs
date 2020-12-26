@@ -75,15 +75,15 @@ namespace ShoppingSystem.Controllers
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Address")] Supermarket supermarket)
         {
             try
-                {
-                    await _supermarkets.EditAsync(supermarket);
+            {
+                await _supermarkets.EditAsync(supermarket);
 
-                    return RedirectToAction(nameof(Index));
-                }
-                catch
-                {
-                    return BadRequest();
-                }
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
 
         // GET: Supermarkets/Delete/5
@@ -109,6 +109,5 @@ namespace ShoppingSystem.Controllers
             await _supermarkets.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
-
     }
 }

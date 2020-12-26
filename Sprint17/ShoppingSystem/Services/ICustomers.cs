@@ -13,5 +13,5 @@ namespace ShoppingSystem.Services
 		Task EditAsync(Customer model);
 		Task AddAsync(Customer model);
 		Task DeleteAsync(int id);
-    }
+	}
 }
