@@ -1,0 +1,31 @@
+﻿@model TaskAuthenticationAuthorization.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Sign in</h2>
+<a asp-action="Register" asp-controller="Account">Registration</a>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" asp-controller="Account" asp-anti-forgery="true">
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div>
+                <div>
+                    <label asp-for="Email" class="control-label">Enter Email</label>
+                    <p><input type="text" asp-for="Email" class="form-control" /></p>
+                    <span asp-validation-for="Email" />
+                </div>
+                <div>
+                    <label asp-for="Password" class="control-label">Enter password</label>
+                    <p><input asp-for="Password" class="form-control" /></p>
+                    <span asp-validation-for="Password" />
+                </div>             
+                <div class="form-group">
+                    <p><input type="submit" value="Войти" class="btn btn-outline-dark" /></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
